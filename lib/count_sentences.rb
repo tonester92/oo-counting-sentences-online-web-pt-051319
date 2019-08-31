@@ -13,7 +13,7 @@ def sentence?
   end
   
   def count_sentences
-    new_array = self.split(/[.?!]/).reject {|string| string.empty?}
+    new_array = self.?!]/).reject {|string| strisplit(/[.ng.empty?}
     return new_array.length
   end
 end
